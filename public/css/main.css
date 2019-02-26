@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(177, 209, 197);
+  color: rgb(41, 68, 27);
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  padding-left: 30px;
+  font-size: 2em;
+}
+
+nav {
+  grid-column: 1 / 2;
+}
+
+a {
+  font-size: 1.5em;
+  display: block;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.main-body {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+.planet-details {
+  background-color: black;
+  color: white;
+}
+
+.planet-menu {
+  grid-column: 2 / 3;
+}
+
+.updateNav {
+
+background-color: rgb(10, 70, 8);
+color: rgb(190, 186, 51);
+}
